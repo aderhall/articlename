@@ -2385,12 +2385,12 @@ function articlename () {
 		var random = {};
 		var __name__ = '__main__';
 		__nest__ (random, '', __init__ (__world__.random));
-		var celebrities = list (['mElon Musk', 'fEmma Watson', 'mGeorge Bush', 'mBarack Obama', 'fBeyoncé', 'fTaylor Swift', 'fKim Kardashian', 'mThe Pope', 'mDonald Trump', 'mJustin Bieber', 'fEllen Degeneres', 'mStephen Colbert', 'mJohn Oliver', 'mBrad Pitt', 'mDwayne Johnson', 'mWill Smith', 'fAdele', 'fNicki Minaj', 'mHarrison Ford', 'mEd Sheeran', 'fSarah Palin', 'mMike Pence']);
-		var actions = list (['got a new haircut', 'just bought a new <o>', '!is moving to <l> for one crazy reason', '!posted one word on twitter', '!is starting a new company to sell <op>', 'ate a lollipop in public', '!only follows one person on twitter', 'posted a weird selfie on instagram', 'was gay all along', 'released a rap album about being oppressed', 'is coming out as transgender', 'cured <gs> diabetes with this one weird trick', 'retook the SAT and got a perfect score', 'had an affair with <p> in the 1990s', "can't stand <op>", 'is sexually attracted to <op>', 'will be appearing in the highly anticipated new series "The secret <f> of <l>"', 'called <p>\'s idea of selling <op> in <l> "<q>"', '!posted a surprisingly poignant message on twitter', "revealed <gs> daughter's middle name"]);
+		var celebrities = list (['mElon Musk', 'fEmma Watson', 'mGeorge Bush', 'mBarack Obama', 'fBeyonce', 'fTaylor Swift', 'fKim Kardashian', 'mThe Pope', 'mDonald Trump', 'mJustin Bieber', 'fEllen Degeneres', 'mStephen Colbert', 'mJohn Oliver', 'mBrad Pitt', 'mDwayne Johnson', 'mWill Smith', 'fAdele', 'fNicki Minaj', 'mHarrison Ford', 'mEd Sheeran', 'fSarah Palin', 'mMike Pence']);
+		var actions = list (['got a new haircut', 'just bought this weird new <o>', '!is moving to <l> for one crazy reason', '!posted just one word on twitter', '!wants to sell <op>', 'ate this weird lollipop in public', '!only follows one person on twitter', 'posted this weird selfie on instagram', 'was gay all along', 'released a controversial rap album about being oppressed', 'is coming out as transgender', 'cured <gs> diabetes with this one weird trick', 'retook the SAT and got a perfect score', 'had an affair with <p> in the 1990s', "can't stand <op>", 'is sexually attracted to <op>', 'will be appearing in the highly anticipated new series "The secret <f> of <l>"', '!posted a surprisingly poignant message on twitter', "revealed <gs> daughter's middle name", 'wants to sell <op> to <f>', 'released <gs> tax returns']);
 		var objects = list (['smartphone', 'pancake', 'shirt', 'car', 'yoyo', 'laptop', 'phone case', list (['breakfast cereal', 'breakfast cereal']), list (['chocolate bar', 'chocolate']), list (['porn dvd', 'porn'])]);
 		var companies = list (['Amazon', 'Google', 'Facebook', 'Nestle', 'Kraft', 'Cheerios']);
-		var reactions = list (["it's brilliant", 'people are freaking out', 'people on the internet are rioting', 'the internet is understandably furious', "it's glorious", 'nobody understands why', '<f> are furious', '<p> is furious', 'we love it', "it's fantastic", 'people in <l> are making millions off it', '<f> in <l> are profiting', '<f> in <l> are loving it', '<f> have all condemned it', "<p>'s response will restore your faith in humanity", 'it will make you die inside', 'the irony will make you chuckle', 'it will make you lose your faith in humanity', 'it will restore your faith in humanity', '<f> are trying to keep it a secret', '<f> want it banned immediately', "it's surprisingly dark", '<p> is "feeling totally stoked about it"', "it's really scary", '<p> thinks it\'s "<q>"', "it's hilarious", "<p>'s response is hilarious", '3 <c> employees were fired for showing their support', '<f> are calling it "<q>"']);
-		var classes = list (['doctors', 'fashion designers', 'scientists', 'rich people', 'Hollywood actors', 'parents', 'senators', 'white people', 'housewives']);
+		var reactions = list (["it's brilliant", 'people are freaking out', 'people on the internet are rioting', 'the internet is understandably furious', "it's glorious", 'nobody understands why', '<f> are furious', '<p> is furious', 'we love it', "it's fantastic", '<f> in <l> are loving it', '<f> have all condemned it', "<p>'s response will restore your faith in humanity", 'it will make you die inside', 'the irony will make you chuckle', 'it will make you lose your faith in humanity', 'it will restore your faith in humanity', '<f> are trying to keep it a secret', '<f> want it banned immediately', "it's surprisingly dark", '<p> is "feeling totally stoked about it"', "it's really scary", '<p> thinks it\'s "<q>"', "it's hilarious", "<p>'s response is hilarious", '3 <c> employees were fired for showing their support', '<f> are calling it "<q>"']);
+		var classes = list (['doctors', 'fashion designers', 'scientists', 'rich people', 'Hollywood actors', 'parents', 'senators', 'white people', 'housewives', 'elderly people']);
 		var locations = list (['Virginia', 'Canada', 'Hollywood', 'LA', 'Europe', 'Kansas', 'Alaska', 'Russia', 'Washington, DC', 'the Netherlands']);
 		var quotes = list (['pretty gay', 'messed up', 'the greatest danger to mankind we have ever faced', 'pretty dumb, to be honest', 'totally hot']);
 		var createName = function () {
@@ -2494,9 +2494,39 @@ function articlename () {
 window ['articlename'] = articlename ();
 
 //# sourceMappingURL=extra/sourcemap/articlename.js.map
+
 </script>
+
 <h2>Buzzfeed/Clickbait article title generator</h2>
 
-<p>
-<div id = "name">...</div>
-<button onclick="articlename.createName ()">Generate Article Name</button>
+
+<div>
+  <h4>Your article:</h4>
+  <div style="margin:25;background:#FFF;border:#AAA solid 1px;padding:10px;padding-top:3px;padding-right: 20px;min-width:300px;overflow:hidden;display:inline-block;border-radius:3px;">
+
+    <!--<svg id="BuzzFeed" xmlns="http://www.w3.org/2000/svg" viewBox="40 231.9 10000 300">
+      <title>BuzzFeed Logo</title>
+      <path id="BuzzFeed_on_White" d="M31 379.2V231.9h65.7c28 0 42.4 17.9 42.4 37.5 0 18.3-11.5 30.9-25.4 33.8 15.9 2.4 28.3 17.7 28.3 36 0 22.3-14.6 40-42.8 40H31zM107.1 275c0-9.1-6.6-15.5-17.2-15.5H62.4v30.9h27.5c10.6 0 17.2-5.9 17.2-15.4zm2.9 59.8c0-9.3-6.6-16.8-18.8-16.8H62.4v33.6h28.9c11.6 0 18.7-6.2 18.7-16.8zm40.6 1.7v-64h28.2v63.1c0 12.7 7.7 21.9 22.7 21.9 14.8 0 22.6-9.2 22.6-21.9v-63.1h28.1v63.9c0 26.8-16.1 45.6-50.6 45.6s-51-19-51-45.5zm110.9 42.7v-21l48.1-61.2h-48.1v-24.5h86.3v20.1l-49 62.1h49.9v24.5h-87.2zm96.4 0v-21L406 297h-48.1v-24.5h86.3v20.1l-49 62.1h49.9v24.5h-87.2zm97.7 0V231.9h102.2v27.6H487v30.9h53.3V318H487v61.2h-31.4zm92.6-53.4c0-30.9 23-55.9 55.2-55.9 32 0 53.4 23.9 53.4 58.5v6.6h-79.3c2 13 12.6 23.9 30.7 23.9 9.1 0 21.4-3.8 28.3-10.4l12.6 18.6c-10.6 9.7-27.4 14.8-43.9 14.8-32.5 0-57-21.9-57-56.1zm55.2-32.9c-17.4 0-25 12.1-26.1 22.7h52.6c-.9-10.2-8-22.7-26.5-22.7zm61 32.9c0-30.9 23-55.9 55.2-55.9 32 0 53.4 23.9 53.4 58.5v6.6h-79.3c2 13 12.6 23.9 30.7 23.9 9.1 0 21.4-3.8 28.3-10.4l12.6 18.6c-10.6 9.7-27.4 14.8-43.9 14.8-32.5 0-57-21.9-57-56.1zm55.2-32.9c-17.4 0-25 12.1-26.1 22.7h52.6c-.9-10.2-8-22.7-26.5-22.7zm63.7 86.5V272.3h43c33.7 0 58 20.2 58 53.5 0 33.2-24.2 53.6-57.8 53.6h-43.2zm73.7-53.6c0-16.6-10-30.4-29.6-30.4H810v60.9h17.4c18.7 0 29.6-14.6 29.6-30.5z"></path>
+    </svg>-->
+    <div style="text-align:left;line-height:80px;min-height:60px;">
+      <img src="http://assets.stickpng.com/thumbs/58825083e81acb96424ffabd.png" alt="BuzzFeed Logo" style="width:60px;height:60px;float:left;margin-right:10px;display:inline-block;clear:none;"></img>
+      <span style="display:inline-block;vertical-align:middle;line-height:normal;margin-top:21px;clear:none;">
+        <strong>
+          <a id="name" href="" style="color: #000;">...</a>
+        </strong>
+      </span>
+    </div>
+    <div>
+      <a href="" style="color:#CCC;font-size:10px;margin:0px;padding-right:10px;">Like</a>
+      <a href="" style="color:#CCC;font-size:10px;margin:0px;padding-right:10px;">Share</a>
+      <a href="" style="color:#CCC;font-size:10px;margin:0px;padding-right:10px;">Subscribe</a>
+    </div>
+
+  </div>
+</div>
+<script type="text/javascript">
+articlename.createName();
+</script>
+
+<button onclick="articlename.createName ()" style="margin:20px;">Generate Article Name</button>
+
